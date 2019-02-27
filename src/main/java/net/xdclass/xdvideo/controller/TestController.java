@@ -22,6 +22,7 @@ public class TestController {
 	@Autowired
 	private WeChatConfig weChatConfig;
 
+
 	@RequestMapping("test_config")
 	public String testConfig(){
 
